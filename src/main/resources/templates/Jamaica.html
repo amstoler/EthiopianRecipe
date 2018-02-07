@@ -3,13 +3,37 @@
 <head>
     <meta charset="UTF-8"/>
     <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+    <link href="./CSS/stylesheet.css" rel="stylesheet"/>
 </head>
+
 <body>
+<!-- A grey horizontal navbar that becomes vertical on small screens -->
+<nav class="navbar navbar-expand-sm bg-light">
 
-<img src="./images/Flag_Jamaica.png/" alt="Flag of Jamaica"/>
-<img src="./images/jerk-chicken-940.jpg" alt="Picture of Jerk chicken"/>
+    <!-- Links -->
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Recipies</a>
 
-<h1>Jamaica</h1>
+    </ul>
+
+</nav>
+
+<div class="container"> <!--Creates a container-->
+    <div class="row"> <!--Creating a row-->
+        <div class="col-md-4"> <!--create col 1-->
+<img class="pic" src="./images/Flag_Jamaica.png/" alt="Flag of Jamaica"/>
+<img class="pic" src="./images/jerk-chicken-940.jpg" alt="Picture of Jerk chicken"/>
+            <h1>Jerk Chicken</h1>
+        </div> <!--Closing col 1-->
+
+
+
+        <div class="col-md-4"> <!--Creating col 2-->
 
 <h3>Ingredients:</h3>
 
@@ -24,6 +48,8 @@
 <li>1 small red chilli, sliced</li>
 <li>4 skinless, boneless chicken breast fillets - cut into strips</li>
 
+        </div> <!--close col 2-->
+ <div class="col-md-4"> <!--Creating col 3-->
 <h5>Directions</h5>
 <p>Prep:10min  ›  Cook:15min  ›  Extra time:1hr  ›  Ready in:1hr25min <br>
 Combine the onion, brown sugar, soya sauce, vinegar, thyme, sesame oil,
@@ -35,6 +61,9 @@ Combine the onion, brown sugar, soya sauce, vinegar, thyme, sesame oil,
 
 <p>Remove chicken from the bag, and discard marinade. Place chicken on tray and broil for 10 to 15 minutes, turning once to ensure
     even cooking. Heat reserved 1/4 marinade in a small pan to make a sauce and pour over chicken when serving.</p>
+ </div> <!--Closed col 3-->
+    </div> <!--close row-->
+</div> <!--close container-->
 
 
 
